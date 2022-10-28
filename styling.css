@@ -1,0 +1,262 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #F1EEE9;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* NAV BAR AT TOP */
+#list-nav-white {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  text-transform: lowercase;
+  background-color: #DAAAA1;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 0px;
+  text-decoration: none;
+  border-radius: 10px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.banner-nav-pink a {
+  text-decoration: none;
+  padding: 20px;
+}
+
+.list-link:hover, .list-link:visited:hover {
+  color: #888888;
+  text-decoration: underline;
+}
+
+.list-link:visited {
+  color: #fff;
+}
+
+/* END OF NAV BAR AT TOP */
+
+/* MAIN HEADING */
+h1 {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 1000;
+  text-transform: lowercase;
+  padding: 130px;
+  padding-top: 90px;
+  margin: 10 auto;
+  opacity: 80%;
+}
+
+#title {
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  width: 60%;
+  margin: 0 auto;
+  background: url("images/sunset4.jpeg");
+}
+
+/* COUNTRY HEADINGS */
+h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: xx-large;
+  text-transform: lowercase;
+  display: block;
+  padding: 0;
+  padding-top: 10px;
+  margin: 10px;
+  height: 40px;
+}
+
+img {
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.card-indonesia {
+  background-color: #e5989b;
+  border-radius: 10px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.card-malaysia {
+  background-color: #e5989b;
+  border-radius: 10px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#img-malaysia-flag,
+#img-indonesia-flag {
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px;
+  width: 100px;
+  height: 60px;
+  opacity: 80%;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+figcaption {
+  display: block;
+  font-size: small;
+  line-height: 25px;
+}
+
+li {
+  display: inline;
+  text-align: center;
+  line-height: 30px;
+}
+
+#list-malaysia-destinations,
+#list-indonesia-destinations{
+  padding: 15px;
+}
+
+#list-malaysia-destinations a,
+#list-indonesia-destinations a {
+  color:#000;
+  list-style-type: none;
+  display: inline;
+  text-decoration: none;
+  padding: 5px;
+}
+
+#list-malaysia-destinations a:visited,
+#list-indonesia-destinations a:visited {
+  color:#000;
+}
+
+#list-malaysia-destinations a:hover:visited,
+#list-indonesia-destinations a:hover:visited {
+  color:#6d6875;
+  background-color: #fff;
+  text-decoration: underline;
+  border-radius: 15px;
+  transition: 0.1s;
+  padding: 5px;
+}
+#list-malaysiadestinations a:hover,
+#list-indonesiadestinations a:hover {
+  color:#6d6875;
+  background-color: #fff;
+  text-decoration: underline;
+  border-radius: 15px;
+  transition: 0.1s;
+  padding: 5px;
+}
+
+.card-paragraph-travel-time {
+  padding: 15px;
+  background-color: #f4a296;
+  border-radius: 15px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.card-destinations {
+  padding: 15px;
+  background-color: #8ecae6;
+  border-radius: 15px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+h3{
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  text-decoration:underline;
+}
+
+.img-insta-portrait {
+  display: block;
+  height: auto;
+  width: auto;
+  max-height: 300px;
+  max-width: 100%;
+}
+
+.img-insta-landscape{
+  display: block;
+  justify-content: center;
+  max-width: 100%;
+  object-fit: cover;
+
+}
+
+.paragraph-destination {
+  font-family: monospace;
+  font-size: small;
+}
+
+/* SOCIAL AREA - BOTTOM OF PAGE */
+.footer-contact-me {
+  font-family: monospace;
+  margin: 0px auto;
+  margin-top: 20px;
+  padding: 5px;
+  width: 60%;
+  background-color: #DAAAA1;
+  color: #fff;
+  border-radius: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+#title-socials {
+  padding-bottom: 10px;
+}
+
+.socials {
+  display: inline-block;
+  width: 100px;
+  color: #fff;
+}
+
+.socials a:hover {
+  text-decoration: underline;
+  transition: 0.1s;
+  background-color: #fff;
+  color:#DAAAA1;
+  border-radius: 10px;
+  padding:3px;
+}
+
+.socials a:hover:visited{
+  text-decoration: underline;
+  transition: 0.1s;
+  background-color: #fff;
+  color:#DAAAA1;
+  border-radius: 10px;
+}
+
+.socials a:visited {
+  color: #fff;
+  font-style: italic;
+}
+
+/* END OF PAGE */
+
+/* BITS FOR OTHER PAGE */
+.intro {
+  background-color: #A3D2CA;
+  border-radius: 15px;
+  padding-bottom: 20px;
+}
+
+.maintext {
+  padding: 50px;
+  line-height: 40px;
+}
+
+.klpic {
+  margin: 20px;
+}
